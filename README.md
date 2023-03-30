@@ -73,3 +73,21 @@ working directory에서 code를 작업하면 add를 통해 stage fixes되어 sta
 이것을 내 컴퓨터에서만 보여주는 것이 아니라 다른 컴퓨터에도 보여지게 하기 위해서는(사실 정확하게 맞는지 잘 모르겠다!) local reposity를 push하여 remote reposity에 가게끔 하면 여기서 pull하여 다른 developer가 볼 수 있게(feedback할 수 있게..?) 된다고 배웠다.
 중간중간에 볼 수 있는 fetch라는 것도 있지만 이것보다는 pull을 더 많이 사용한다고 하셨다.
 마지막으로 local reposity는 git이 관리한다고 하였는데, remote reposity는 github에서 관리한다는 것을 배웠다.
+
+----------------------------------------------------
+
+기초 웹 스터디 3주차 - 2023년 3월 28일 화요일
+
+이번 주 WIL인 WIL3에 담을 내용은 과제를 하며 수행한 내용이나 배운 점 및 느낀 점에 관련한 것들이다.
+
+그래서 오늘의 WIL 작성 방식(틀)은 각 수행 단계를 적고 그 수행 단계마다 내가 무엇을 배웠고 무엇을 느꼈는지 적어볼 것이다.
+
+과제 수행 1단계 : 멘토님께서 제시해주신 repository를 fork하여 나의 repository에 저장하기(저장할 때 repository의 이름을 webstudy-homework-본인핸들명으로 하기)
+
+-> 이 단계를 수행하면서 배운 점 및 느낀 점 : 우선 fork가 무엇인지 알게 되었다. 내가 찾아본 결과, fork 해당 원격 저장소(remote repository)  즉, 지금 나에게는 멘토님께서 제시해주신 repository를 나의 원격 저장소로 복사하는 것이었다. 
+
+그리고 핸들명은 내가 사용하고 있는 이름이라는 것도 알게 되었다... 이렇게 보니 모르는 용어가 너무 많나 싶기도 한데 차차 알아가는 과정이니 모르는 것들은 바로 검색해서 배워나가면 된다고 생각했다. 
+
+과제 수행 2단계 : fork한 repository를 git clone 명령어를 이용해 본인 컴퓨터에 받는다.
+
+-> 이 단계를 수행하면서 배운 점 및 느낀 점 : 어제 스터디 실습 시간에 clone을 해보긴 했지만 기억이 잘 나지 않았는데 이번 과제를 통해 다시 한 번 clone하는 방법(clone한 remote repository를 받을 폴더에서 git bash를 열어  'git clone remote repository 주소'라고 입력하면 된다.)에 대해 알아보는 시간을 가질 수 있어 좋았다.
