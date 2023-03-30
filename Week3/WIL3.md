@@ -65,3 +65,6 @@ master와 test가 병합되어 c2를 가리키고 있던 master가 이제 c3를 
 
 [스터디에서 설명을 들으며 그린 그림 - git merge2](https://user-images.githubusercontent.com/127318008/228619860-0990ea64-0b37-4f51-b9cf-f9191f515148.jpg)
 
+c2를 기준으로 해서 c3와 c4로 나뉘어져 있고 master라는 포인터는 c4를, test라는 포인터는 c5(c3에게 화살표를 하고 있는 것)를 가리키고 있다. 
+
+여기서 master와 test가 병합하면 위에 그림에서 나왔듯이 c4와 c5를 가리키는 c6이라는 것이 새로 생겨서 이것을 master가 가리키게 된다. 
